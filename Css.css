@@ -121,7 +121,6 @@ li.active .nav-link:before,
   width: 75%;
   margin-top: 1.5em;
   margin-left: 7em;
-  margin-right: 7em;
 }
 
 .column2,
@@ -141,6 +140,27 @@ li.active .nav-link:before,
   margin-left: 3em;
   margin-right: 3em;
   text-decoration-line: underline;
+}
+
+.models {
+  background-color: black;
+}
+.models h1 {
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  font-size: 2em;
+}
+
+.models-cotainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.model-item img {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 1180px) {
