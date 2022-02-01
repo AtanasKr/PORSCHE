@@ -142,6 +142,10 @@ li.active .nav-link:before,
   text-decoration-line: underline;
 }
 
+#last {
+  padding-bottom: 4em;
+}
+
 .models {
   background-color: black;
 }
@@ -176,8 +180,9 @@ li.active .nav-link:before,
   .column3 img {
     height: 75%;
     width: 75%;
-    margin-left: 5em;
-    margin-right: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (max-width: 826px) {
@@ -248,5 +253,9 @@ li.active .nav-link:before,
     font-size: 0.6em;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .models-cotainer {
+    display: block;
   }
 }
